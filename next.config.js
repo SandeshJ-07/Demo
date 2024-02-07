@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-import WebpackReactComponentNamePlugin from 'webpack-react-component-name';
+const WebpackReactComponentNamePlugin = require('webpack-react-component-name');
 
 const nextConfig = {
   reactStrictMode: true,
