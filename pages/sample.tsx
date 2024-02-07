@@ -7,6 +7,7 @@ const SampleComponent = () => {
             <p>Sample Code H Y!</p>
             <A/>
             <A2/>
+            <B/>
             </div>
     );
 }
