@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  compress:false
+  webpack: (config, {isServer}) => {
+    config.devtool = 'cheap-module-source-map';
+    return config;
+  }
 }
 
 module.exports = nextConfig
-config.js

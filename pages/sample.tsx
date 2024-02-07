@@ -1,5 +1,6 @@
 import A from "@/components/A";
 import A2 from "@/components/let/A";
+import B from "@/components/let/another/B";
 
 const SampleComponent = () => {
     return(
